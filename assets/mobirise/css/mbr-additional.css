@@ -993,7 +993,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #ffe161;
 }
 .cid-tXzFT6SndT button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1903,7 +1903,7 @@ a {
 }
 .cid-tXAjMghgOl .dropdown-menu,
 .cid-tXAjMghgOl .navbar.opened {
-  background: #ffffff !important;
+  background: #0000ff !important;
 }
 .cid-tXAjMghgOl .nav-item:focus,
 .cid-tXAjMghgOl .nav-link:focus {
@@ -1938,7 +1938,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(0, 0, 255, 0);
 }
 .cid-tXAjMghgOl .navbar.opened {
   transition: all 0.3s;
@@ -2083,7 +2083,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-tXAjMghgOl .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #0000ff;
 }
 .cid-tXAjMghgOl .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -2114,7 +2114,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffe161;
 }
 .cid-tXAjMghgOl button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2730,7 +2730,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #ffe161;
 }
 .cid-tXAiYUbIvw button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -4497,7 +4497,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffe161;
 }
 .cid-tXEvt7TlQS button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
