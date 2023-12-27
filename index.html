@@ -63,11 +63,43 @@
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
-  
+  <style>
+body {
+    overflow: hidden;
+}
+ 
+/* Preloader */
+ 
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+ 
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(assets/images/loading-image.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+</style>
 </head>
 <body>
   
   <section data-bs-version="5.1" class="menu menu2 cid-tXzFT6SndT" once="menu" id="menu2-7">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"> </div>
+    </div>
     
     <nav class="navbar navbar-dropdown navbar-expand-lg">
         <div class="container">
@@ -100,7 +132,6 @@
 </section>
 
 <section data-bs-version="5.1" class="header4 firmm4_header4 cid-tXzIkp94xi" id="header4-8">
-
     
     
 
@@ -388,7 +419,19 @@
   <script src="assets/theme/js/script.js"></script>
   
   
-  
+  &lt; !-- jQuery Plugin --&gt;
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"> <  /script>
+ 
+< !-- Preloader -->
+<script type="text/javascript">
+    //< ![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+            $('#status').fadeOut(); // will first fade out the loading animation
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+            $('body').delay(350).css({'overflow':'visible'});
+        })
+    //]]>
+</script>
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
     <input name="animation" type="hidden">
   <script>"use strict";if("loading"in HTMLImageElement.prototype){document.querySelectorAll('img[loading="lazy"]').forEach(e=>{e.src=e.dataset.src;if(e.getAttribute("style")){e.setAttribute("data-temp-style",e.getAttribute("style"))};if(e.getAttribute("data-aspectratio")){e.style.paddingTop=100*e.getAttribute("data-aspectratio")+"%";e.style.height=0;}e.onload=function(){if(e.getAttribute("data-temp-style")){e.setAttribute("style", e.getAttribute("data-temp-style"))}else{e.removeAttribute("style")};e.removeAttribute("data-temp-style")}})}else{const e=document.createElement("script");e.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js";document.body.appendChild(e)}</script>
