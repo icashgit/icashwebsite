@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "iCASH Website",
-    "currentPage": "index.html",
+    "currentPage": "icash-privacypolicy.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -77,7 +77,7 @@
         "main": true,
         "title": "iCASH: Revolutionize Your Financial Experience",
         "meta_descr": "Your One-Stop Digital Wallet for Seamless Financial Management. Experience the ultimate convenience in money transfers, bill payments, mobile top-ups, and comprehensive financial services including loans, savings, stock trading, and insurance. Secure, user-friendly, and packed with rewarding features, iCASH is designed to simplify your financial life and empower you with control over your finances. Join us on a journey to financial freedom and innovation.",
-        "header_custom": "",
+        "header_custom": "<!-- Messenger Chat Plugin Code -->\n    <div id=\"fb-root\"></div>\n\n    <!-- Your Chat Plugin code -->\n    <div id=\"fb-customer-chat\" class=\"fb-customerchat\">\n    </div>\n\n    <script>\n      var chatbox = document.getElementById('fb-customer-chat');\n      chatbox.setAttribute(\"page_id\", \"167490566452089\");\n      chatbox.setAttribute(\"attribution\", \"biz_inbox\");\n    </script>\n\n    <!-- Your SDK code -->\n    <script>\n      window.fbAsyncInit = function() {\n        FB.init({\n          xfbml            : true,\n          version          : 'v18.0'\n        });\n      };\n\n      (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));\n    </script>",
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/icash-logo%20blue-1256x1256.png"
@@ -1293,11 +1293,11 @@
             }
           },
           "_cid": "tZCx8My4uN",
+          "_anchor": "aheader2-44",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "aheader2-44"
+          "_params": {}
         },
         {
           "alias": false,
@@ -1389,7 +1389,7 @@
       "settings": {
         "title": "Get in Touch with iCASH: We’re Here to Help!",
         "meta_descr": "Have questions, feedback, or need assistance? The iCASH team is just a message away! Our Contact Us page provides easy ways to reach out to us. Whether you prefer a quick chat, an email, or a phone call, we’re ready to assist you with any inquiries or support you need. Connect with us and let us know how we can make your iCASH experience even better.",
-        "header_custom": "",
+        "header_custom": "<!-- Messenger Chat Plugin Code -->\n    <div id=\"fb-root\"></div>\n\n    <!-- Your Chat Plugin code -->\n    <div id=\"fb-customer-chat\" class=\"fb-customerchat\">\n    </div>\n\n    <script>\n      var chatbox = document.getElementById('fb-customer-chat');\n      chatbox.setAttribute(\"page_id\", \"167490566452089\");\n      chatbox.setAttribute(\"attribution\", \"biz_inbox\");\n    </script>\n\n    <!-- Your SDK code -->\n    <script>\n      window.fbAsyncInit = function() {\n        FB.init({\n          xfbml            : true,\n          version          : 'v18.0'\n        });\n      };\n\n      (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));\n    </script>",
         "footer_custom": "",
         "html_before": "",
         "order": 2,
@@ -2153,7 +2153,7 @@
       "settings": {
         "title": "iCASH Merchant Gateway: Streamline Your Business Transactions",
         "meta_descr": "Tailored for businesses of all sizes, our gateway offers a streamlined onboarding process and a suite of powerful merchant services designed to enhance your financial operations. Discover how easy it is to integrate iCASH into your business, enabling efficient payment processing, detailed transaction analytics, and robust security features. Whether you're looking to expand your payment options, simplify your financial workflows, or secure your transaction environment, iCASH Merchant Gateway is your trusted partner in business growth and innovation. Join us and transform the way you do business.",
-        "header_custom": "",
+        "header_custom": "<!-- Messenger Chat Plugin Code -->\n    <div id=\"fb-root\"></div>\n\n    <!-- Your Chat Plugin code -->\n    <div id=\"fb-customer-chat\" class=\"fb-customerchat\">\n    </div>\n\n    <script>\n      var chatbox = document.getElementById('fb-customer-chat');\n      chatbox.setAttribute(\"page_id\", \"167490566452089\");\n      chatbox.setAttribute(\"attribution\", \"biz_inbox\");\n    </script>\n\n    <!-- Your SDK code -->\n    <script>\n      window.fbAsyncInit = function() {\n        FB.init({\n          xfbml            : true,\n          version          : 'v18.0'\n        });\n      };\n\n      (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));\n    </script>",
         "footer_custom": "",
         "html_before": "",
         "order": 1,
@@ -4281,7 +4281,7 @@
       "settings": {
         "title": "iCASH Privacy Policy",
         "meta_descr": "Your privacy matters to us. In the iCASH Privacy Policy, we transparently outline how we handle, protect, and respect your personal information. We’re committed to upholding the highest standards of data privacy and invite you to understand our practices. This policy details your rights as a user and how we ensure your information is kept secure and used responsibly.",
-        "header_custom": "",
+        "header_custom": "<!-- Messenger Chat Plugin Code -->\n    <div id=\"fb-root\"></div>\n\n    <!-- Your Chat Plugin code -->\n    <div id=\"fb-customer-chat\" class=\"fb-customerchat\">\n    </div>\n\n    <script>\n      var chatbox = document.getElementById('fb-customer-chat');\n      chatbox.setAttribute(\"page_id\", \"167490566452089\");\n      chatbox.setAttribute(\"attribution\", \"biz_inbox\");\n    </script>\n\n    <!-- Your SDK code -->\n    <script>\n      window.fbAsyncInit = function() {\n        FB.init({\n          xfbml            : true,\n          version          : 'v18.0'\n        });\n      };\n\n      (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));\n    </script>",
         "footer_custom": "",
         "html_before": "",
         "order": 4,
