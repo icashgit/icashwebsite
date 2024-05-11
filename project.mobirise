@@ -68,8 +68,8 @@
     "siteUrl": "https://icashfinance.com",
     "cookiesAlert": false,
     "gdpr": false,
-    "global_header_custom": "<script src=\"//fbstore.sendpulse.com/loader.js\" data-sp-widget-id=\"0641609b-8713-4247-bdf4-3d5e432caea4\" async></script>",
-    "global_footer_custom": "",
+    "global_header_custom": "<script type=\"text/javascript\">\nscript = document.createElement('script')\nscript.src = 'https://static.sppopups.com/assets/loader.js';\nscript.async = true;\nscript.setAttribute(\"data-chats-widget-id\",'4f63820a-5940-4113-9881-bcc8be1ec213');\ndocument.head.appendChild(script);\n</script>",
+    "global_footer_custom": "<script async src=\"https://static.sppopups.com/assets/loader.js\" data-chats-widget-id=\"4f63820a-5940-4113-9881-bcc8be1ec213\"></script>",
     "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-HXH503TCHM\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-HXH503TCHM');\n</script>",
     "global_after_body": ""
   },
