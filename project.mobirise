@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "iCASH Website",
-    "currentPage": "contactus.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -68,8 +68,8 @@
     "siteUrl": "https://icashfinance.com",
     "cookiesAlert": false,
     "gdpr": false,
-    "global_header_custom": "<!-- Messenger Chat Plugin Code -->\n    <div id=\"fb-root\"></div>\n\n    <!-- Your Chat Plugin code -->\n    <div id=\"fb-customer-chat\" class=\"fb-customerchat\">\n    </div>\n\n    <script>\n      var chatbox = document.getElementById('fb-customer-chat');\n      chatbox.setAttribute(\"page_id\", \"167490566452089\");\n      chatbox.setAttribute(\"attribution\", \"biz_inbox\");\n    </script>\n\n    <!-- Your SDK code -->\n    <script>\n      window.fbAsyncInit = function() {\n        FB.init({\n          xfbml            : true,\n          version          : 'v18.0'\n        });\n      };\n\n      (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));\n    </script>",
-    "global_footer_custom": "",
+    "global_header_custom": "",
+    "global_footer_custom": "<script src=\"//fbstore.sendpulse.com/loader.js\" data-sp-widget-id=\"0641609b-8713-4247-bdf4-3d5e432caea4\" async></script>",
     "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-HXH503TCHM\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-HXH503TCHM');\n</script>"
   },
   "pages": {
